@@ -22,7 +22,7 @@ public class Main {
         System.out.println("Массивы. Часть 2.  Домашнее задание 2");
 
         int max = Integer.MIN_VALUE;
-        int min = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
         for (int expense : expenses) {
             if (expense > max) {
                 max = expense;
